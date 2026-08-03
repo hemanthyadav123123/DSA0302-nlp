@@ -1,10 +1,6 @@
 import nltk
 from nltk.stem import PorterStemmer
-
-# Create Porter Stemmer object
 stemmer = PorterStemmer()
-
-# List of words
 words = ["playing", "studies", "running", "happily", "computers", "walking"]
 
 print("Original Word\tStemmed Word")
