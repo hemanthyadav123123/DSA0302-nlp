@@ -2,7 +2,7 @@ import nltk
 from nltk.tokenize import word_tokenize
 from nltk.stem import PorterStemmer
 
-# Download tokenizer (Run only once)
+
 nltk.download('punkt')
 nltk.download('punkt_tab')
 
