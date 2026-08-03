@@ -6,13 +6,8 @@ from nltk.stem import PorterStemmer
 nltk.download('punkt')
 nltk.download('punkt_tab')
 
-# Create stemmer
 stemmer = PorterStemmer()
-
-# Input sentence
 text = input("Enter a sentence: ")
-
-# Tokenize the sentence
 words = word_tokenize(text)
 
 print("\nMorphological Analysis (Stemming):")
